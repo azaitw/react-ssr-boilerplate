@@ -1,0 +1,13 @@
+{
+  "verbose": true,
+  "exec": "webpack --config webpack.config.js; node start.js",
+  "watch": [
+    ".babelrc"
+  ],
+  "events": {
+    "restart": "osascript -e 'display notification \" restarting\" with title \"nodemon\"'"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  }
+}

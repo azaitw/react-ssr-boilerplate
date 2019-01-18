@@ -18,10 +18,9 @@ const Footer = styled.div`
 class Container extends React.PureComponent {
   constructor (props) {
     super(props)
-    let stateObj = {
-      page: props.pageObj && props.pageObj.page
-    }
+    let stateObj = {}
     if (props.pageObj) {
+      stateObj.page = props.pageObj.page
       if (props.pageObj.page === 'home') {
         stateObj.items = props.result.items
       } else if (props.pageObj.page === 'item') {

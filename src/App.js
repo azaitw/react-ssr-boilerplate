@@ -7,11 +7,7 @@ const App = ({ pageObj, result }) => {
     <Route
       path='/'
       render={props =>
-        <Container
-          {...props}
-          result={result}
-          pageObj={pageObj}
-        />
+        <Container {...props} result={result} pageObj={pageObj} />
       }
     />
   </Switch>

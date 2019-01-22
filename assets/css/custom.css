@@ -11,19 +11,13 @@ html {
 body {
   min-height: 100vh;
   width: 100%;
-  font-family: 'Helvetica Neue', arial, sans-serif;
   font-weight: 400;
   color: #eee;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #0f0c29;
-  background: #0f0c29;
-  background: -webkit-linear-gradient(to left, hsla(211, 33%, 22%, 1) , #000000,  hsla(31, 33%, 22%, 1) );
   background: linear-gradient(to left, hsla(211, 33%, 22%, 1) , #000000,  hsla(31, 33%, 22%, 1) );
 }
 a, a:link, a:visited {
   color: #fff
-}
-.footer span {
-  font-size:14px;
 }
